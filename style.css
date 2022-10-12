@@ -3,8 +3,7 @@
     padding: 0%;
 }
 .container{
-    width: 25%;
-    border: 1px solid red;
+    max-width: 400px;
     min-height: 70vh;
     margin: 0 auto ;
     background-color: rgb(31, 29, 29);
@@ -13,12 +12,14 @@
 }
 
 .input-control{
-    width: 100%;
-    margin: 0%;
-    padding:.3em 0em;
+    width: 80%;
+    padding:.3em 10%;
     border: none;
     font-size: 3rem;
     outline: none;
+    color: white;
+    background-color: rgb(31, 29, 29);
+    
 }
 
 .content{
@@ -27,12 +28,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1em;
     margin: 1em;
+    max-width: 400px;
 }
 .btn{
-    width: 30px;
-    height: 30px;
+    max-width: 30px;
+    max-height: 30px;
     border-radius: 50%;
-    padding: .6em;
+    padding: 1em;
     font-size: 2rem;
     background-color: orangered;
     color: white;
@@ -41,15 +43,12 @@
     justify-content: center;
     align-items: center;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
 .btn-clean{
     border-radius: 10px;
     width: 100%;
     margin-left:.2em ;
 }
-/* .btn-clean{
-    height: 30px;
-    width: 60px;
-    border-radius: 20px;
-    justify-content: flex-end;
-    
-} */
